@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from "react";
 import { Github } from "lucide-react";
-import Link from "next/link";
 
 // Custom X logo component
 const XLogo = ({ className }: { className?: string }) => (
