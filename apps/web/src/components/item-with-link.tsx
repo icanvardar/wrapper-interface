@@ -41,11 +41,11 @@ export function ItemWithLink({
 export function ZeroEmail() {
   return (
     <ItemWithLink
-      innerClassName="w-8 h-8 text-soft-silver"
+      innerClassName="w-6 sm:w-8 h-6 sm:h-8 text-soft-silver"
       forwardTo="https://www.0.email/"
       viewBox="0 0 32 32"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       svgPath={
         <>
@@ -69,11 +69,11 @@ export function ZeroEmail() {
 export function Ratatui() {
   return (
     <ItemWithLink
-      innerClassName="w-8 h-8 text-soft-silver"
+      innerClassName="w-6 sm:w-8 h-6 sm:h-8 text-soft-silver"
       forwardTo="https://www.ratatui.rs/"
       viewBox="0 0 32 32"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       svgPath={
         <>
@@ -104,7 +104,7 @@ export function Ratatui() {
 export function OSSDotNow() {
   return (
     <ItemWithLink
-      innerClassName="w-8 h-8 text-soft-silver"
+      innerClassName="w-6 sm:w-8 h-6 sm:h-8 text-soft-silver"
       forwardTo="https://www.oss.now/"
       viewBox="0 0 32 32"
       svgStyle={{
@@ -125,10 +125,10 @@ export function OSSDotNow() {
 export function Autumn() {
   return (
     <ItemWithLink
-      innerClassName="w-[32px] h-[51px] text-soft-silver"
+      innerClassName="w-6 sm:w-[32px] h-8 sm:h-[51px] text-soft-silver"
       forwardTo="https://useautumn.com/"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       viewBox="0 0 32 51"
       svgPath={
@@ -179,11 +179,11 @@ export function Autumn() {
 export function HelixDb() {
   return (
     <ItemWithLink
-      innerClassName="w-[43px] h-[43px] text-soft-silver"
+      innerClassName="mx-[-8px] sm:px-0 w-8 sm:w-[43px] h-8 sm:h-[43px] text-soft-silver"
       forwardTo="https://www.helix-db.com/"
       viewBox="0 0 750 750"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       svgPath={
         <>
@@ -205,7 +205,7 @@ export function X() {
       forwardTo="https://x.com/wrapperdotsh"
       viewBox="0 0 24 24"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       svgPath={
         <>
@@ -223,7 +223,7 @@ export function Discord() {
       forwardTo="https://discord.gg/jhPgSA9G"
       viewBox="0 0 24 24"
       svgStyle={{
-        filter: "drop-shadow(0 4px 30px rgba(110,86,207,1))",
+        filter: "drop-shadow(0 4px 30px var(--color-electric-ink))",
       }}
       svgPath={
         <>

@@ -12,6 +12,7 @@ import {
   ZeroEmail as ZeroEmailItem,
 } from "@/components/item-with-link";
 import { GitHubButton } from "@/components/github-button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -26,13 +27,15 @@ export default function Home() {
       </div>
       <div className="absolute inset-0 w-screen h-screen m-0 p-0 pointer-events-none">
         <div className="grid grid-cols-12 h-full">
-          <div className="col-span-8 xl:col-span-4 col-start-3 xl:col-start-5 2xl:px-12 flex flex-col h-full pointer-events-auto">
+          <div className="col-span-10 xl:col-span-4 col-start-2 xl:col-start-5 2xl:px-12 flex flex-col h-full pointer-events-auto">
             {/* Navbar */}
             <nav className="w-full flex items-center justify-between py-6 pointer-events-auto pt-12">
-              <img
+              <Image
                 src="/wrapper-logo.svg"
                 alt="Wrapper Logo"
                 className="h-10 w-auto sm:h-12"
+                width="40"
+                height="40"
               />
               <GitHubButton />
             </nav>
@@ -49,7 +52,7 @@ export default function Home() {
 
               <h1
                 className="text-6xl font-space-grotesk text-white mt-2 text-center leading-[0.929]"
-                style={{ textShadow: "0 4px 30px rgba(110,86,207,1)" }}
+                style={{ textShadow: "0 4px 30px var(--color-electric-ink)" }}
               >
                 <span className="font-bold">terminal</span> meets ai,
                 <br />
@@ -58,33 +61,33 @@ export default function Home() {
 
               <p
                 className="text-base text-soft-silver text-center mt-4"
-                style={{ textShadow: "0 4px 30px rgba(110,86,207,1)" }}
+                style={{ textShadow: "0 4px 30px var(--color-electric-ink)" }}
               >
                 your ai companion, always just a command away.
               </p>
 
               <div className="w-full max-w-md bg-[rgba(14,14,14,0.6)] backdrop-blur-[8px] border border-white/10 rounded-lg p-4 shadow-[0_4px_30px_rgba(0,0,0,1)] p-8 mt-12">
                 <div className="space-y-2 font-space-grotesk">
-                  <p className="text-base font-light text-[#b0b0b0]">
+                  <p className="text-base font-light text-soft-silver">
                     # ssh into wrapper.sh to join the waitlist
                   </p>
-                  <p className="text-base text-[#fafaf9] font-bold">
+                  <p className="text-base text-foreground font-bold">
                     $ ssh wrapper.sh
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-2 mt-2">
-                <div className="w-2 h-2 bg-[#22C55E] rounded-full animate-pulse"></div>
+                <div className="w-2 h-2 bg-sexy-green rounded-full animate-pulse"></div>
                 <span
                   className="text-soft-silver tracking-[-0.1em]"
-                  style={{ textShadow: "0 4px 30px rgba(110,86,207,1)" }}
+                  style={{ textShadow: "0 4px 30px var(--color-electric-ink)" }}
                 >
                   100k+ people already joined
                 </span>
               </div>
 
-              <div className="flex flex-col items-center mt-16 sm:mt-8 pointer-events-auto">
+              <div className="flex flex-col items-center mt-16 pointer-events-auto">
                 <h2
                   className="text-2xl text-bone-white/75 text-center tracking-[-0.1em]"
                   style={{ textShadow: "0 4px 4px rgba(110,86,207,0.25)" }}
@@ -111,7 +114,7 @@ export default function Home() {
                   <XItem />
                   <DiscordItem />
                 </div>
-                <p className="text-xs text-[#b0b0b0] tracking-[-0.1em]">
+                <p className="text-xs text-soft-silver tracking-[-0.1em]">
                   © 2025 Cupola Labs, LLC, All Rights Reserved
                 </p>
               </div>
