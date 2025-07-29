@@ -1,6 +1,6 @@
 "use client";
 
-import { UnicornScene } from "@wrapper-interface/ui";
+import { UnicornScene } from "@/components/unicorn-scene";
 import { Badge } from "@/components/ui/badge";
 import {
   Autumn as AutumnItem,
