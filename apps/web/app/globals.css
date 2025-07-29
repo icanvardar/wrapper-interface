@@ -11,12 +11,12 @@
   --color-soft-silver: #B0B0B0;
   --color-smoke-white: #F5F5F5;
   --color-electric-ink: #6e56cf;
-  
+
   /* Font families */
   --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-jetbrains-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
   --font-space-grotesk: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
-  
+
   /* Design system colors that map to Tailwind utilities */
   --color-background: var(--color-carbon-black);
   --color-foreground: var(--color-bone-white);
@@ -49,7 +49,7 @@
   --color-sidebar-accent-foreground: var(--color-bone-white);
   --color-sidebar-border: oklch(0.922 0 0);
   --color-sidebar-ring: oklch(0.708 0 0);
-  
+
   /* Border radius */
   --radius: 0.625rem;
   --radius-sm: calc(var(--radius) - 4px);
@@ -62,6 +62,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-black text-foreground min-h-screen font-inter;
   }
