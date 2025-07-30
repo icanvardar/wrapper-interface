@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
+import { ConvexClientProvider } from "./ConvexClientProvider";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -33,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${jetBrainsMono.variable}`}
       >
-        {children}
+        <ConvexClientProvider>{children}</ConvexClientProvider>
       </body>
     </html>
   );
