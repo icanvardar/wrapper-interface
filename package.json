@@ -1,5 +1,5 @@
 {
-  "name": "wrapper-interface",
+  "name": "wrapper-platform",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -22,6 +22,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@better-fetch/fetch": "^1.1.18",
     "@tailwindcss/postcss": "^4.1.11",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"

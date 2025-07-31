@@ -23,19 +23,19 @@
     "next": "^15.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwind-merge": "^3.3.1"
-  },
-  "devDependencies": {
+    "tailwind-merge": "^3.3.1",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
-    "@wrapper-interface/eslint-config": "*",
-    "@wrapper-interface/typescript-config": "*",
-    "@wrapper-interface/auth": "*",
-    "eslint": "^9.31.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.11",
-    "tw-animate-css": "^1.3.5",
     "typescript": "5.8.2"
+  },
+  "devDependencies": {
+    "@workspace/eslint-config": "*",
+    "@workspace/typescript-config": "*",
+    "@workspace/auth": "*",
+    "eslint": "^9.31.0",
+    "tw-animate-css": "^1.3.5"
   }
 }
